@@ -1,0 +1,12 @@
+01/10/2025 13:56:34 | INFO | ✅ Bind realizado com sucesso para 'vadenilson.santos'
+01/10/2025 13:56:35 | INFO | 🔍 Verificando grupo do usuário 'vadenilson.santos'...
+01/10/2025 13:56:35 | INFO | ✅ Usuário 'vadenilson.santos' pertence ao grupo 'CN=GRP_ESTOQUE,CN=Users,DC=bbgtelecom,DC=com'
+01/10/2025 16:06:50 | WARNING | ❌ Falha no bind para 'vadenilson.santos': {'result': 49, 'description': 'invalidCredentials', 'dn': '', 'message': '8009030C: LdapErr: DSID-0C0906A6, comment: AcceptSecurityContext error, data 52e, v2580\x00', 'referrals': None, 'saslCreds': None, 'type': 'bindResponse'}
+01/10/2025 16:06:54 | WARNING | ❌ Falha no bind para 'vadenilson.santos': {'result': 49, 'description': 'invalidCredentials', 'dn': '', 'message': '8009030C: LdapErr: DSID-0C0906A6, comment: AcceptSecurityContext error, data 52e, v2580\x00', 'referrals': None, 'saslCreds': None, 'type': 'bindResponse'}
+01/10/2025 16:06:55 | WARNING | ❌ Falha no bind para 'vadenilson.santos': {'result': 49, 'description': 'invalidCredentials', 'dn': '', 'message': '8009030C: LdapErr: DSID-0C0906A6, comment: AcceptSecurityContext error, data 52e, v2580\x00', 'referrals': None, 'saslCreds': None, 'type': 'bindResponse'}
+01/10/2025 16:06:59 | INFO | ✅ Bind realizado com sucesso para 'vadenilson.santos'
+01/10/2025 16:06:59 | INFO | 🔍 Verificando grupo do usuário 'vadenilson.santos'...
+01/10/2025 16:06:59 | INFO | ✅ Usuário 'vadenilson.santos' pertence ao grupo 'CN=GRP_ESTOQUE,CN=Users,DC=bbgtelecom,DC=com'
+01/10/2025 16:46:38 | INFO | ✅ Bind realizado com sucesso para 'vadenilson.santos'
+01/10/2025 16:46:38 | INFO | 🔍 Verificando grupo do usuário 'vadenilson.santos'...
+01/10/2025 16:46:38 | INFO | ✅ Usuário 'vadenilson.santos' pertence ao grupo 'CN=GRP_ESTOQUE,CN=Users,DC=bbgtelecom,DC=com'

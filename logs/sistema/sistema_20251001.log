@@ -1,0 +1,7 @@
+01/10/2025 13:56:35 | INFO | sistema | ✅ Login realizado: vadenilson.santos
+01/10/2025 14:20:07 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251001172007_clientesPJ_errosCadastrais.xlsx pelo usuário vadenilson.santos
+01/10/2025 14:20:08 | INFO | sistema | Colunas lidas: ['Unnamed: 0', 'Unnamed: 1']
+01/10/2025 14:20:08 | INFO | sistema | Quantidade de linhas: 88
+01/10/2025 14:20:08 | ERROR | sistema | Colunas obrigatórias ausentes: mac, serie
+01/10/2025 16:06:59 | INFO | sistema | ✅ Login realizado: vadenilson.santos
+01/10/2025 16:46:38 | INFO | sistema | ✅ Login realizado: vadenilson.santos

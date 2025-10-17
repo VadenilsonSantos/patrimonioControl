@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MAC & Série - Patrimônio</title>
+  <link rel="icon" type="/image/png" href="/static/media/NGS_LOGO.png">
+  <link rel="stylesheet" href="/static/css/index.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logos">
+        <div class="logo"><img src="/static/media/logobbg.png" alt="Logo" width="100"></div>
+        <div>
+          <h1>MAC/Série</h1>
+        </div>
+        <div class="logo"><img src="/static/media/NGS.png" alt="Logo" width="100"></div>
+      </div>
+    </div>
+
+    <form id="form" enctype="multipart/form-data" method="post" action="/patrimonio/upload">
+      <label for="id_produto">Produto</label>
+      <div class="autocomplete-container">
+        <input type="text" id="id_produto" name="id_produto" placeholder="Digite ID ou descrição" autocomplete="off"
+          required>
+        <ul id="autocomplete-list" class="autocomplete-items"></ul>
+      </div>
+
+      <div class="file-download-container">
+        ⚠️ Para evitar erros no envio, disponibilizamos um modelo padrão: <br>
+        <a href="/static/doc/mac_serie.xlsx" download="mac_serie.xlsx" class="download-btn">
+          📄 Baixar modelo de planilha
+        </a>
+      </div>
+
+
+      <div class="file-upload-wrapper">
+        <label class="file-upload-label">
+          <input type="file" id="file" name="file" accept=".xls,.xlsx" required>
+          <span class="file-upload-button">📂 Escolher arquivo</span>
+        </label>
+        <span id="file-name">Nenhum arquivo escolhido</span>
+        <button type="button" id="file-remove">✖</button>
+      </div>
+
+      <button type="submit">Subir Saldo</button>
+    </form>
+    <div id="loading">⏳ Enviando, aguarde...</div>
+    <div id="mensagem-usuario"></div>
+  </div>
+  <footer class="powered-footer">
+    Powered by ® Sistemas BBG Telecom
+  </footer>
+  <script src="/static/js/script.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,303 @@
+:root {
+    --primary-blue: #007bff;
+    --dark-bg: #1e1e2d;
+    --container-bg: #2c2c3c;
+    --text-light: #ffffff;
+    --text-muted: #cccccc;
+    --notice-bg: #dceeff;
+    --notice-text: #1e1e2d;
+}
+
+/* === Reset simples === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: var(--dark-bg);
+  color: var(--text-light);
+  display: flex;
+  flex-direction: column;       /* empilha container + footer */
+  justify-content: center;      /* centraliza verticalmente */
+  align-items: center;          /* centraliza horizontalmente */
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* === Container principal === */
+.container {
+  background: var(--container-bg);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  margin-bottom: 10px; /* espaço para o footer */
+}
+
+/* === Header com logos === */
+.header {
+  margin-bottom: 25px;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logos h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: var(--text-light);
+  text-align: center;;
+}
+
+/* === Formulário === */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+input[type="text"], 
+input[type="file"], 
+button {
+  font-size: 14px;
+}
+
+/* === Autocomplete === */
+.autocomplete-container {
+  position: relative;
+  width: 100%;
+}
+
+#id_produto {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  background: var(--dark-bg);
+  color: var(--text-light);
+}
+
+.autocomplete-items {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--container-bg);
+  border: 1px solid #444;
+  border-top: none;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1000;
+  border-radius: 0 0 6px 6px;
+}
+
+.autocomplete-items li {
+  padding: 10px;
+  cursor: pointer;
+  color: var(--text-light);
+}
+
+.autocomplete-items li:hover, 
+.autocomplete-items li.autocomplete-active {
+  background-color: #33334d;
+  color: var(--primary-blue);
+}
+
+/* === Upload de arquivo customizado === */
+/* Container do upload */
+.file-upload-wrapper {
+  display: flex;
+  align-items: center;
+  background: var(--dark-bg); /* fundo padrão do projeto */
+  border: 1px solid #444;
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+/* Esconde input nativo */
+.file-upload-label input[type="file"] {
+  display: none;
+}
+
+/* Botão customizado */
+.file-upload-button {
+  background: var(--primary-blue);
+  color: #fff;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+  white-space: nowrap;
+}
+
+.file-upload-button:hover {
+  background: #0069d9;
+}
+
+/* Texto do nome do arquivo */
+#file-name {
+  flex: 1;
+  padding: 10px;
+  font-style: italic;
+  color: var(--text-muted);
+  background: var(--container-bg);
+  border-left: 1px solid #444;
+}
+
+
+#upload-btn {
+  background: var(--primary-blue);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+#upload-btn:hover {
+  background: #0069d9;
+}
+
+#file-name {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* === Botão enviar === */
+button[type="submit"] {
+  background: var(--primary-blue);
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  transition: background 0.3s;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background: #0069d9;
+}
+
+/* === Mensagens === */
+#mensagem-usuario {
+  margin-top: 15px;
+  padding: 12px;
+  border-radius: 6px;
+  display: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+#mensagem-usuario.sucesso {
+  background-color: #28a745;
+  color: white;
+}
+
+#mensagem-usuario.erro {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* === Loading === */
+#loading {
+  display: none;
+  margin-top: 15px;
+  font-size: 14px;
+  color: var(--primary-blue);
+}
+
+/* ===== Scrollbar Dark ===== */
+.autocomplete-items::-webkit-scrollbar {
+  width: 8px;
+}
+
+.autocomplete-items::-webkit-scrollbar-track {
+  background: var(--dark-bg);
+  border-radius: 6px;
+}
+
+.autocomplete-items::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 6px;
+}
+
+.autocomplete-items::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-blue);
+}
+
+/* Firefox */
+.autocomplete-items {
+  scrollbar-width: thin;
+  scrollbar-color: #555 var(--dark-bg);
+}
+
+/* === Footer "powered" fixado abaixo do card === */
+.powered-footer {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;  /* separa do card */
+}
+
+.file-download-container {
+  font-size: 13px;
+  font-style: italic;
+  text-justify: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -1px;
+  color: var(--text-muted);
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.file-download-container a.download-btn {
+  color: var(--primary-blue);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.file-download-container a.download-btn:hover {
+  text-decoration: underline;
+  color: #3399ff; /* azul mais claro no hover */
+}
+
+#file-remove {
+  background: transparent;
+    display: none;
+  border: none;
+  color: #aaa; /* cor clara, sutil */
+  font-size: 14px;
+  cursor: pointer;
+  margin: 10px;
+  padding: 0;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+
+#file-remove:hover {
+  color: #f00; /* vermelho ao passar o mouse */
+}

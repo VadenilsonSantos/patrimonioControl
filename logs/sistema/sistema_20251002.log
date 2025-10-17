@@ -1,0 +1,40 @@
+02/10/2025 09:20:35 | INFO | sistema | ✅ Login realizado: vadenilson.santos
+02/10/2025 09:40:29 | INFO | sistema | ✅ Login realizado: vadenilson.santos
+02/10/2025 10:05:27 | INFO | sistema | ✅ Login realizado: vadenilson.santos
+02/10/2025 11:22:00 | INFO | sistema | ✅ Login realizado: vadenilson.santos
+02/10/2025 11:22:07 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251002142207_mac_serie.xlsx pelo usuário vadenilson.santos
+02/10/2025 11:22:09 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+02/10/2025 11:22:09 | INFO | sistema | Quantidade de linhas: 499
+02/10/2025 11:22:10 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 1: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+02/10/2025 11:22:10 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 2: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+02/10/2025 11:22:10 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 3: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+02/10/2025 11:22:10 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 4: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+02/10/2025 11:22:10 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 5: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+02/10/2025 11:41:39 | INFO | sistema | ✅ Login realizado: vadenilson.santos
+02/10/2025 11:44:29 | INFO | sistema | ✅ Login realizado: vadenilson.santos
+02/10/2025 11:50:28 | INFO | sistema | ✅ Login realizado: vadenilson.santos

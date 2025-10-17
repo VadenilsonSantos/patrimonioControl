@@ -1,0 +1,91 @@
+:root {
+    --primary-blue: #007bff;
+    --dark-bg: #1e1e2d;
+    --container-bg: #2c2c3c;
+    --text-light: #ffffff;
+    --text-muted: #cccccc;
+}
+
+/* Reset simples */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--dark-bg);
+    color: var(--text-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: var(--container-bg);
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Header com logos e título */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-light);
+    text-align: center;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* Logos pequenas nas extremidades */
+.logo-small {
+    width: 40px;
+    height: auto;
+}
+
+/* Botões de escolha */
+.choice-btn {
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--primary-blue);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+    
+}
+
+.choice-btn:hover {
+    background: #0069d9;
+}
+
+/* Footer fixado abaixo do card */
+.powered-footer {
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    margin-top: 20px;  /* garante distância do card */
+}
