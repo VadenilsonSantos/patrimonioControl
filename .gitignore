@@ -1,0 +1,47 @@
+# ========================
+# Arquivos e pastas do Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+
+# ========================
+# Virtual env e dependências locais
+# ========================
+venv/
+.env/
+.venv/
+pip-wheel-metadata/
+*.egg
+
+# ========================
+# Configurações sensíveis e logs
+# ========================
+.env
+*.log
+logs/
+uploads/
+
+# ========================
+# Configurações de IDEs / Editores
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# Node (caso use para front ou assets)
+# ========================
+node_modules/
+package-lock.json
+
+# ========================
+# Arquivos temporários do sistema
+# ========================
+.DS_Store
+Thumbs.db

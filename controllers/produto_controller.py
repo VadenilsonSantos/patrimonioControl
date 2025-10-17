@@ -14,9 +14,10 @@ query = """
         p.descricao
     FROM produtos p 
     WHERE p.tipo = 'P'
-      AND p.ativo = 'S'
     ORDER BY p.id ASC
 """
+
+#      AND p.ativo = 'S'
 
 @router.get("/produtos")
 def listar_produtos():

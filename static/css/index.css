@@ -20,11 +20,12 @@ body {
   background: var(--dark-bg);
   color: var(--text-light);
   display: flex;
-  flex-direction: column;       /* empilha container + footer */
-  justify-content: center;      /* centraliza verticalmente */
-  align-items: center;          /* centraliza horizontalmente */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
   padding: 20px;
+  animation: fadeIn 0.6s ease-out;
 }
 
 /* === Container principal === */
@@ -36,25 +37,39 @@ body {
   width: 100%;
   max-width: 500px;
   text-align: center;
-  margin-bottom: 10px; /* espaço para o footer */
+  margin-bottom: 10px;
+  animation: zoomIn 0.5s ease-out;
 }
 
 /* === Header com logos === */
 .header {
-  margin-bottom: 25px;
+  margin-bottom: 40px; /* aumentei para dar mais espaço do header para o formulário */
 }
 
 .logos {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 25px; /* aumenta espaço entre logos e título */
 }
 
 .logos h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
   color: var(--text-light);
-  text-align: center;;
+  text-align: center;
+  animation: fadeInUp 0.7s ease;
+}
+
+.logos img {
+  width: 80px;
+  height: auto;
+  transition: transform 0.3s ease;
+  animation: fadeInUp 0.7s ease;
+}
+
+.logos img:hover {
+  transform: scale(1.08);
 }
 
 /* === Formulário === */
@@ -66,7 +81,7 @@ form {
 }
 
 label {
-  font-size: 14px;
+  font-size: 0.9rem;
   font-weight: 600;
   color: var(--text-muted);
 }
@@ -74,7 +89,7 @@ label {
 input[type="text"], 
 input[type="file"], 
 button {
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 /* === Autocomplete === */
@@ -119,38 +134,34 @@ button {
 }
 
 /* === Upload de arquivo customizado === */
-/* Container do upload */
 .file-upload-wrapper {
   display: flex;
   align-items: center;
-  background: var(--dark-bg); /* fundo padrão do projeto */
+  background: var(--dark-bg);
   border: 1px solid #444;
   border-radius: 6px;
   overflow: hidden;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
-/* Esconde input nativo */
 .file-upload-label input[type="file"] {
   display: none;
 }
 
-/* Botão customizado */
 .file-upload-button {
   background: var(--primary-blue);
   color: #fff;
   padding: 10px 16px;
   cursor: pointer;
   font-weight: 600;
-  transition: background 0.3s;
-  white-space: nowrap;
+  transition: background 0.3s, transform 0.3s;
 }
 
 .file-upload-button:hover {
   background: #0069d9;
+  transform: translateY(-2px);
 }
 
-/* Texto do nome do arquivo */
 #file-name {
   flex: 1;
   padding: 10px;
@@ -160,45 +171,23 @@ button {
   border-left: 1px solid #444;
 }
 
-
-#upload-btn {
-  background: var(--primary-blue);
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 14px;
-  transition: background 0.3s;
-}
-
-#upload-btn:hover {
-  background: #0069d9;
-}
-
-#file-name {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-style: italic;
-  font-size: 13px;
-  color: var(--text-muted);
-}
-
 /* === Botão enviar === */
-button[type="submit"] {
+button[type="submit"], #upload-btn {
   background: var(--primary-blue);
   color: #fff;
   padding: 12px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: bold;
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.3s;
   margin-top: 10px;
 }
 
-button[type="submit"]:hover {
+button[type="submit"]:hover, #upload-btn:hover {
   background: #0069d9;
+  transform: translateY(-2px);
 }
 
 /* === Mensagens === */
@@ -208,7 +197,7 @@ button[type="submit"]:hover {
   border-radius: 6px;
   display: none;
   text-align: center;
-  font-size: 14px;
+  font-size: 0.9rem;
 }
 
 #mensagem-usuario.sucesso {
@@ -225,7 +214,7 @@ button[type="submit"]:hover {
 #loading {
   display: none;
   margin-top: 15px;
-  font-size: 14px;
+  font-size: 0.9rem;
   color: var(--primary-blue);
 }
 
@@ -254,18 +243,18 @@ button[type="submit"]:hover {
   scrollbar-color: #555 var(--dark-bg);
 }
 
-/* === Footer "powered" fixado abaixo do card === */
+/* === Footer === */
 .powered-footer {
   text-align: center;
   font-size: 12px;
   color: #888;
-  margin-top: 10px;  /* separa do card */
+  margin-top: 10px;
 }
 
+/* === File Download === */
 .file-download-container {
   font-size: 13px;
   font-style: italic;
-  text-justify: auto;
   font-family: Arial, Helvetica, sans-serif;
   margin-top: -1px;
   color: var(--text-muted);
@@ -282,14 +271,14 @@ button[type="submit"]:hover {
 
 .file-download-container a.download-btn:hover {
   text-decoration: underline;
-  color: #3399ff; /* azul mais claro no hover */
+  color: #3399ff;
 }
 
 #file-remove {
   background: transparent;
-    display: none;
+  display: none;
   border: none;
-  color: #aaa; /* cor clara, sutil */
+  color: #aaa;
   font-size: 14px;
   cursor: pointer;
   margin: 10px;
@@ -299,5 +288,38 @@ button[type="submit"]:hover {
 }
 
 #file-remove:hover {
-  color: #f00; /* vermelho ao passar o mouse */
+  color: #f00;
+}
+
+/* === Responsividade e escalas automáticas === */
+@media (max-width: 600px) {
+    html { font-size: 14px; }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    html { font-size: 16px; }
+}
+
+@media (min-width: 1001px) and (max-width: 1600px) {
+    html { font-size: 18px; }
+}
+
+@media (min-width: 1601px) {
+    html { font-size: 20px; }
+}
+
+/* === Animações suaves === */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
 }

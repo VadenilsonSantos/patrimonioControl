@@ -6,7 +6,7 @@
     --text-muted: #cccccc;
 }
 
-/* Reset simples */
+/* Reset */
 * {
     margin: 0;
     padding: 0;
@@ -23,22 +23,26 @@ body {
     align-items: center;
     min-height: 100vh;
     padding: 20px;
+    gap: 20px;
+    animation: fadeIn 0.6s ease-out;
 }
 
+/* Card central */
 .container {
     background: var(--container-bg);
-    padding: 30px 20px;
-    border-radius: 12px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
-    width: 100%;
-    max-width: 400px;
+    padding: 3rem 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 700px;
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 2rem;
+    animation: zoomIn 0.5s ease-out;
 }
 
-/* Header com logos e título */
+/* Header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -47,45 +51,101 @@ body {
 }
 
 .header h1 {
-    font-size: 24px;
+    font-size: 1.8rem;
     font-weight: bold;
     color: var(--text-light);
     text-align: center;
     flex-grow: 1;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 1rem;
 }
 
-/* Logos pequenas nas extremidades */
+/* Logos */
 .logo-small {
-    width: 40px;
+    width: 90px;
     height: auto;
+    transition: transform 0.3s ease;
+    animation: fadeInUp 0.8s ease;
 }
 
-/* Botões de escolha */
+.logo-small:hover {
+    transform: scale(1.08);
+}
+
+/* Botões */
 .choice-btn {
     width: 100%;
-    padding: 12px 16px;
-    font-size: 16px;
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #fff;
     background: var(--primary-blue);
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     cursor: pointer;
-    transition: background 0.3s;
-    margin-top: 10px;
-    
+    transition: all 0.3s ease;
 }
 
 .choice-btn:hover {
     background: #0069d9;
+    transform: translateY(-2px);
 }
 
-/* Footer fixado abaixo do card */
+/* Footer */
 .powered-footer {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.9rem;
     color: #888;
-    margin-top: 20px;  /* garante distância do card */
+}
+
+/* --- Escala progressiva (responsiva) --- */
+@media (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+    .logo-small {
+        width: 60px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    html {
+        font-size: 16px;
+    }
+    .logo-small {
+        width: 80px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1600px) {
+    html {
+        font-size: 18px;
+    }
+    .logo-small {
+        width: 100px;
+    }
+}
+
+@media (min-width: 1601px) {
+    html {
+        font-size: 20px;
+    }
+    .logo-small {
+        width: 110px;
+    }
+}
+
+/* --- Animações --- */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(15px); }
+    to { opacity: 1; transform: translateY(0); }
 }

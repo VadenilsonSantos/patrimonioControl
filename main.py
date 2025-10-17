@@ -9,7 +9,7 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.security import OAuth2PasswordRequestForm
 
 from config import ACCESS_TOKEN_EXPIRE_HOURS
-from controllers.patrimonio_controller import processar_arquivo
+from controllers.patrimonio_controller import handle_upload
 from controllers.produto_controller import router as produto_router
 from services.validations import validar_planilha
 
@@ -155,7 +155,7 @@ async def upload_saldo(
             resultado = validacao
         else:
             df_valido = validacao["dados"]
-            resultado = processar_arquivo(df_valido, id_produto, logger=sistema_logger)
+            resultado = handle_upload(tmp_path, id_produto, sistema_logger)
 
     except Exception as e:
         sistema_logger.exception("❌ Falha ao salvar/processar arquivo")

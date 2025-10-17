@@ -1,0 +1,326 @@
+17/10/2025 14:08:17 | INFO | sistema | ✅ Login realizado: vadenilson.santos
+17/10/2025 14:50:50 | INFO | sistema | ✅ Login realizado: vadenilson.santos
+17/10/2025 16:55:56 | INFO | sistema | ✅ Login realizado: vadenilson.santos
+17/10/2025 17:00:26 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017200026_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:00:29 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:00:29 | INFO | sistema | Quantidade de linhas: 9
+17/10/2025 17:00:30 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 1: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:00:30 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 2: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:00:30 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 3: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:00:30 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 4: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:15:48 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017201548_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:15:50 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:15:50 | INFO | sistema | Quantidade de linhas: 9
+17/10/2025 17:15:51 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 1: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:15:51 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 2: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:15:51 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 3: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:15:51 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 4: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:17:05 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017201705_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:17:07 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:17:07 | INFO | sistema | Quantidade de linhas: 9
+17/10/2025 17:17:07 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 1: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:17:07 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 2: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:17:07 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 3: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:17:07 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 4: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:18:57 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017201857_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:18:58 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:18:58 | INFO | sistema | Quantidade de linhas: 9
+17/10/2025 17:18:58 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 1: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:18:58 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 2: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:18:58 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 3: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:18:58 | ERROR | sistema | ❌ Exceção ao atualizar patrimônio na linha 4: 'str' object has no attribute 'copy'
+Traceback (most recent call last):
+  File "C:\Users\vadenilson.santos\projects\patrimonio-mac-and-serie\services\process.py", line 27, in processar_arquivo
+    patrimonio = patrimonios[i].copy()
+                 ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'copy'
+17/10/2025 17:33:47 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017203347_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:33:48 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:33:48 | INFO | sistema | Quantidade de linhas: 9
+17/10/2025 17:46:37 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017204637_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:46:38 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:46:38 | INFO | sistema | Quantidade de linhas: 9
+17/10/2025 17:48:22 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017204822_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:48:23 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:48:23 | INFO | sistema | Quantidade de linhas: 9
+17/10/2025 17:48:23 | INFO | sistema | 📦 Resultado final do processamento: [
+  {
+    "linha": 1,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 2,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 3,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 4,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 5,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 6,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 7,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 8,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 9,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  }
+]
+17/10/2025 17:50:35 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017205035_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:50:36 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:50:36 | INFO | sistema | Quantidade de linhas: 9
+17/10/2025 17:50:36 | INFO | sistema | 📦 Resultado final do processamento: [
+  {
+    "linha": 1,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 2,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 3,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 4,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 5,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 6,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 7,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 8,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  },
+  {
+    "linha": 9,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  }
+]
+17/10/2025 17:50:58 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017205058_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:50:58 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:50:58 | INFO | sistema | Quantidade de linhas: 1
+17/10/2025 17:50:59 | INFO | sistema | 📦 Resultado final do processamento: [
+  {
+    "linha": 1,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  }
+]
+17/10/2025 17:52:24 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017205224_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:52:25 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:52:25 | INFO | sistema | Quantidade de linhas: 1
+17/10/2025 17:52:26 | INFO | sistema | 📦 Resultado final do processamento: [
+  {
+    "linha": 1,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  }
+]
+17/10/2025 17:52:52 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017205252_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:52:53 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:52:53 | INFO | sistema | Quantidade de linhas: 1
+17/10/2025 17:52:53 | INFO | sistema | 📦 Resultado final do processamento: [
+  {
+    "linha": 1,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  }
+]
+17/10/2025 17:53:13 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017205313_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:53:14 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:53:14 | INFO | sistema | Quantidade de linhas: 1
+17/10/2025 17:53:14 | INFO | sistema | 📦 Resultado final do processamento: [
+  {
+    "linha": 1,
+    "id": null,
+    "status": "erro",
+    "mensagem": "Sem patrimônio disponível"
+  }
+]
+17/10/2025 17:58:17 | INFO | sistema | ✅ Login realizado: vadenilson.santos
+17/10/2025 17:58:37 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017205837_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 17:58:38 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:58:38 | INFO | sistema | Quantidade de linhas: 1
+17/10/2025 17:58:38 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 17:58:38 | INFO | sistema | Quantidade de linhas: 1
+17/10/2025 17:58:39 | INFO | sistema | 🧩 Iniciando validação de estoque para id_produto=null
+17/10/2025 17:58:39 | INFO | sistema | Tipo inicial de 'patrimonios': <class 'list'>
+17/10/2025 17:58:39 | INFO | sistema | ✅ Convertido lista de strings JSON para lista de dicionários.
+17/10/2025 17:58:39 | WARNING | sistema | Estoque insuficiente: necessário 1, disponível 0
+17/10/2025 18:07:37 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017210737_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 18:07:38 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 18:07:38 | INFO | sistema | Quantidade de linhas: 1
+17/10/2025 18:07:39 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 18:07:39 | INFO | sistema | Quantidade de linhas: 1
+17/10/2025 18:07:39 | INFO | sistema | 🧩 Iniciando validação de estoque para id_produto=848
+17/10/2025 18:07:39 | INFO | sistema | Tipo inicial de 'patrimonios': <class 'list'>
+17/10/2025 18:07:39 | INFO | sistema | ✅ Convertido lista de strings JSON para lista de dicionários.
+17/10/2025 18:07:39 | WARNING | sistema | Estoque insuficiente: necessário 1, disponível 0
+17/10/2025 18:12:56 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017211256_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 18:12:57 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 18:12:57 | INFO | sistema | Quantidade de linhas: 1
+17/10/2025 18:12:58 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 18:12:58 | INFO | sistema | Quantidade de linhas: 1
+17/10/2025 18:12:58 | INFO | sistema | 🧩 Iniciando validação de estoque para id_produto=848
+17/10/2025 18:12:59 | INFO | sistema | Tipo inicial de 'patrimonios': <class 'list'>
+17/10/2025 18:12:59 | INFO | sistema | ✅ Convertido lista de strings JSON para lista de dicionários.
+17/10/2025 18:12:59 | WARNING | sistema | Estoque insuficiente: necessário 1, disponível 0
+17/10/2025 18:14:51 | INFO | sistema | 📂 Arquivo salvo: vadenilson.santos_20251017211451_mac_serie (2).xlsx pelo usuário vadenilson.santos
+17/10/2025 18:14:52 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 18:14:52 | INFO | sistema | Quantidade de linhas: 1
+17/10/2025 18:14:53 | INFO | sistema | Colunas lidas: ['mac', 'serie']
+17/10/2025 18:14:53 | INFO | sistema | Quantidade de linhas: 1
+17/10/2025 18:14:53 | INFO | sistema | 🧩 Iniciando validação de estoque para id_produto=848
+17/10/2025 18:14:53 | INFO | sistema | Tipo inicial de 'patrimonios': <class 'list'>
+17/10/2025 18:14:53 | INFO | sistema | ✅ Estoque validado. Total disponível: 46
+17/10/2025 18:14:53 | INFO | sistema | 🔍 Exemplo de patrimônio: {'estado': '1', 'responsavel_id': '0', 'valor_residual': '0.00', 'id': '2839', 'situacao': '1', 'id_produto': '848', 'descricao': '(TESTE) Roteador Smart Dual Band AC1200 (4 Antenas) - Intelbras', 'id_filial': '1', 'id_almoxarifado': '1', 'serial_fornecedor': '', 'id_mac': '', 'serial': 'RK8HU', 'data_aquisicao': '2020-07-31 00:00:00', 'valor_bem': '161.85', 'numero_nf': '72439', 'departamento_id': '0', 'id_movimento_produto': '500827', 'id_fornecedor': '5', 'em_laboratorio': '2', 'aguardando_instalacao': '2', 'garantia_ate': ''}
+17/10/2025 18:14:53 | INFO | sistema | 📦 Estoque retornado (total=46): [{"estado": "1", "responsavel_id": "0", "valor_residual": "0.00", "id": "2839", "situacao": "1", "id_produto": "848", "descricao": "(TESTE) Roteador Smart Dual Band AC1200 (4 Antenas) - Intelbras", "id_filial": "1", "id_almoxarifado": "1", "serial_fornecedor": "", "id_mac": "", "serial": "RK8HU", "data_aquisicao": "2020-07-31 00:00:00", "valor_bem": "161.85", "numero_nf": "72439", "departamento_id": "0", "id_movimento_produto": "500827", "id_fornecedor": "5", "em_laboratorio": "2", "aguardando_instalacao": "2", "garantia_ate": ""}, {"estado": "1", "responsavel_id": "0", "valor_residual": "0.00", "id": "2840", "situacao": "1", "id_produto": "848", "descricao": "(TESTE) Roteador Smart Dual Band AC1200 (4 Antenas) - Intelbras", "id_filial": "1", "id_almoxarifado": "1", "serial_fornecedor": "", "id_mac": "", "serial": "WZYYK", "data_aquisicao": "2020-07-31 00:00:00", "valor_bem": "161.85", "numero_nf": "72439", "departamento_id": "0", "id_movimento_produto": "500827", "id_fornecedor": "5", "em_laboratorio": "2", "aguardando_instalacao": "2", "garantia_ate": ""}, {"estado": "1", "responsavel_id": "0", "valor_residual": "0.00", "id": "2841", "situacao": "1", "id_produto": "848", "descricao": "(TESTE) Roteador Smart Dual Band AC1200 (4 Antenas) - Intelbras", "id_filial": "1", "id_almoxarifado": "1", "serial_fornecedor": "", "id_mac": "", "serial": "OJ8W4", "data_aquisicao": "2020-07-31 00:00:00", "valor_bem": "161.85", "numero_nf": "72439", "departamento_id": "0", "id_movimento_produto": "500827", "id_fornecedor": "5", "em_laboratorio": "2", "aguardando_instalacao": "2", "garantia_ate": ""}]
+17/10/2025 18:14:53 | INFO | sistema | ✅ Patrimônio 2839 atualizado com sucesso (linha 1)
+17/10/2025 18:14:53 | INFO | sistema | 📦 Resultado final do processamento: [
+  {
+    "linha": 1,
+    "id": "2839",
+    "status": "sucesso",
+    "mensagem": "Atualizado com sucesso"
+  }
+]
